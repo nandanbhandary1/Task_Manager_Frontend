@@ -50,5 +50,5 @@ const API = "https://web-production-22622.up.railway.app";
 
 Deployed Links
 
-Frontend: https://your-netlify-site.netlify.app
-Backend: https://web-production-22622.up.railway.app
+Frontend: https://tasktracker24.netlify.app/
+Backend: https://task-manager-backend-production-9b61.up.railway.app/
