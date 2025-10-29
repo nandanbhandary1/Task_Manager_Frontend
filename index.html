@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Task Tracker</h1>
+
+    <form id="taskForm">
+      <input id="title" placeholder="Title" required />
+      <input id="description" placeholder="Description" />
+      <select id="priority" required></select>
+      <input id="due_date" type="date" />
+      <button type="submit">Add Task</button>
+    </form>
+
+    <div id="insights" class="insight-box"></div>
+    <div id="taskList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
