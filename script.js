@@ -6,7 +6,6 @@ const list = document.getElementById("taskList");
 const insightsEl = document.getElementById("insights");
 const prioritySelect = document.getElementById("priority");
 
-// ✅ Dynamically populate priority dropdown
 prioritySelect.innerHTML = `<option value="">-- Select Priority --</option>`;
 priorities.forEach(p => {
   const opt = document.createElement("option");
